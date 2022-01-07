@@ -25,18 +25,18 @@ body {
 }
 
 .row {
-	--bs-gutter-x: 1.5rem;
-	--bs-gutter-y: 0;
+	--flex-x: 1.5rem;
+	--flex-y: 0;
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: calc(
-		var(--bs-gutter-y) * -1
+		var(--flex-y) * -1
 	);
 	margin-right: calc(
-		var(--bs-gutter-x) * -0.5
+		var(--flex-x) * -0.5
 	);
 	margin-left: calc(
-		var(--bs-gutter-x) * -0.5
+		var(--flex-x) * -0.5
 	);
 }
 
@@ -45,12 +45,12 @@ body {
 	width: 100%;
 	max-width: 100%;
 	padding-right: calc(
-		var(--bs-gutter-x) * 0.5
+		var(--flex-x) * 0.5
 	);
 	padding-left: calc(
-		var(--bs-gutter-x) * 0.5
+		var(--flex-x) * 0.5
 	);
-	margin-top: var(--bs-gutter-y);
+	margin-top: var(--flex-y);
 }
 
 @media (min-width: 1400px) {
@@ -614,9 +614,9 @@ textarea {
 	box-shadow: none;
 	padding: 0 15px;
 	outline: none;
-	border: var(--border-width) solid
+	border: 1px solid
 		#e6e6e6;
-	border-radius: var(--radius);
+	border-radius: 5px;
 	/* -- Placeholder -- */
 }
 input[type="text"]::placeholder,
@@ -860,7 +860,6 @@ input[type="radio"] ~ label {
 	position: relative;
 	font-size: 12px;
 	line-height: 17px;
-	color: var(--color-gray);
 	font-weight: 400;
 	padding-left: 20px;
 	cursor: pointer;
@@ -896,7 +895,7 @@ input[type="checkbox"]:checked
 input[type="radio"]:checked
 	~ label::before {
 	background-color: #ff014f;
-	border: var(--border-width) solid
+	border: 1px solid
 		#ff014f;
 }
 input[type="checkbox"]:checked
