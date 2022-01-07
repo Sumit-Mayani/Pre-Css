@@ -1,0 +1,34 @@
+.card__content {
+	.title {
+		font-size: 14px;
+		font-weight: 500px;
+
+		&::first-letter {
+			font-size: 26px;
+			color: red;
+		}
+	}
+
+	.card {
+		.inner_card_content {
+			text-align: center;
+			border: 1px solid #dedede;
+			margin-bottom: 20px;
+
+			.img_card {
+				img {
+					// object-fit: contain;
+					width: 100%;
+				}
+			}
+
+			.inner_para_title {
+				p {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+		}
+	}
+}

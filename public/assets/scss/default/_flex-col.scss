@@ -1,0 +1,397 @@
+@import './variables';
+@import './mixin';
+
+//flex single
+
+.flex-col,
+.flex-col-xs,
+.flex-col-sm,
+.flex-col-md,
+.flex-col-lg,
+.flex-col-xl,
+.flex-col-xxl {
+	flex: 1 0 0%;
+}
+
+// flex xs
+
+@media #{$xs-device} {
+	.flex-col-xs-1 {
+		@include flex-common;
+		@include flex-width-1;
+	}
+
+	.flex-col-xs-2 {
+		@include flex-common;
+		@include flex-width-2;
+	}
+
+	.flex-col-xs-3 {
+		@include flex-common;
+		@include flex-width-3;
+	}
+
+	.flex-col-xs-4 {
+		@include flex-common;
+		@include flex-width-4;
+	}
+
+	.flex-col-xs-5 {
+		@include flex-common;
+		@include flex-width-5;
+	}
+
+	.flex-col-xs-6 {
+		@include flex-common;
+		@include flex-width-6;
+	}
+
+	.flex-col-xs-7 {
+		@include flex-common;
+		@include flex-width-7;
+	}
+
+	.flex-col-xs-8 {
+		@include flex-common;
+		@include flex-width-8;
+	}
+
+	.flex-col-xs-9 {
+		@include flex-common;
+		@include flex-width-9;
+	}
+
+	.flex-col-xs-10 {
+		@include flex-common;
+		@include flex-width-10;
+	}
+
+	.flex-col-xs-11 {
+		@include flex-common;
+		@include flex-width-11;
+	}
+
+	.flex-col-xs-12 {
+		@include flex-common;
+		@include flex-width-12;
+	}
+}
+
+// flex sm
+
+@media #{$sm-device} {
+	.flex-col-sm-1 {
+		@include flex-common;
+		@include flex-width-1;
+	}
+
+	.flex-col-sm-2 {
+		@include flex-common;
+		@include flex-width-2;
+	}
+
+	.flex-col-sm-3 {
+		@include flex-common;
+		@include flex-width-3;
+	}
+
+	.flex-col-sm-4 {
+		@include flex-common;
+		@include flex-width-4;
+	}
+
+	.flex-col-sm-5 {
+		@include flex-common;
+		@include flex-width-5;
+	}
+
+	.flex-col-sm-6 {
+		@include flex-common;
+		@include flex-width-6;
+	}
+
+	.flex-col-sm-7 {
+		@include flex-common;
+		@include flex-width-7;
+	}
+
+	.flex-col-sm-8 {
+		@include flex-common;
+		@include flex-width-8;
+	}
+
+	.flex-col-sm-9 {
+		@include flex-common;
+		@include flex-width-9;
+	}
+
+	.flex-col-sm-10 {
+		@include flex-common;
+		@include flex-width-10;
+	}
+
+	.flex-col-sm-11 {
+		@include flex-common;
+		@include flex-width-11;
+	}
+
+	.flex-col-sm-12 {
+		@include flex-common;
+		@include flex-width-12;
+	}
+}
+
+// flex md
+
+@media #{$md-device} {
+	.flex-col-md-1 {
+		@include flex-common;
+		@include flex-width-1;
+	}
+
+	.flex-col-md-2 {
+		@include flex-common;
+		@include flex-width-2;
+	}
+
+	.flex-col-md-3 {
+		@include flex-common;
+		@include flex-width-3;
+	}
+
+	.flex-col-md-4 {
+		@include flex-common;
+		@include flex-width-4;
+	}
+
+	.flex-col-md-5 {
+		@include flex-common;
+		@include flex-width-5;
+	}
+
+	.flex-col-md-6 {
+		@include flex-common;
+		@include flex-width-6;
+	}
+
+	.flex-col-md-7 {
+		@include flex-common;
+		@include flex-width-7;
+	}
+
+	.flex-col-md-8 {
+		@include flex-common;
+		@include flex-width-8;
+	}
+
+	.flex-col-md-9 {
+		@include flex-common;
+		@include flex-width-9;
+	}
+
+	.flex-col-md-10 {
+		@include flex-common;
+		@include flex-width-10;
+	}
+
+	.flex-col-md-11 {
+		@include flex-common;
+		@include flex-width-11;
+	}
+
+	.flex-col-md-12 {
+		@include flex-common;
+		@include flex-width-12;
+	}
+}
+
+// flex lg
+
+@media #{$lg-device} {
+	.flex-col-lg-1 {
+		@include flex-common;
+		@include flex-width-1;
+	}
+
+	.flex-col-lg-2 {
+		@include flex-common;
+		@include flex-width-2;
+	}
+
+	.flex-col-lg-3 {
+		@include flex-common;
+		@include flex-width-3;
+	}
+
+	.flex-col-lg-4 {
+		@include flex-common;
+		@include flex-width-4;
+	}
+
+	.flex-col-lg-5 {
+		@include flex-common;
+		@include flex-width-5;
+	}
+
+	.flex-col-lg-6 {
+		@include flex-common;
+		@include flex-width-6;
+	}
+
+	.flex-col-lg-7 {
+		@include flex-common;
+		@include flex-width-7;
+	}
+
+	.flex-col-lg-8 {
+		@include flex-common;
+		@include flex-width-8;
+	}
+
+	.flex-col-lg-9 {
+		@include flex-common;
+		@include flex-width-9;
+	}
+
+	.flex-col-lg-10 {
+		@include flex-common;
+		@include flex-width-10;
+	}
+
+	.flex-col-lg-11 {
+		@include flex-common;
+		@include flex-width-11;
+	}
+
+	.flex-col-lg-12 {
+		@include flex-common;
+		@include flex-width-12;
+	}
+}
+
+// flex xl
+
+@media #{$xl-device} {
+	.flex-col-xl-1 {
+		@include flex-common;
+		@include flex-width-1;
+	}
+
+	.flex-col-xl-2 {
+		@include flex-common;
+		@include flex-width-2;
+	}
+
+	.flex-col-xl-3 {
+		@include flex-common;
+		@include flex-width-3;
+	}
+
+	.flex-col-xl-4 {
+		@include flex-common;
+		@include flex-width-4;
+	}
+
+	.flex-col-xl-5 {
+		@include flex-common;
+		@include flex-width-5;
+	}
+
+	.flex-col-xl-6 {
+		@include flex-common;
+		@include flex-width-6;
+	}
+
+	.flex-col-xl-7 {
+		@include flex-common;
+		@include flex-width-7;
+	}
+
+	.flex-col-xl-8 {
+		@include flex-common;
+		@include flex-width-8;
+	}
+
+	.flex-col-xl-9 {
+		@include flex-common;
+		@include flex-width-9;
+	}
+
+	.flex-col-xl-10 {
+		@include flex-common;
+		@include flex-width-10;
+	}
+
+	.flex-col-xl-11 {
+		@include flex-common;
+		@include flex-width-11;
+	}
+
+	.flex-col-xl-12 {
+		@include flex-common;
+		@include flex-width-12;
+	}
+}
+
+// flex column xxl
+@media #{$xxl-device} {
+	.flex-col-xxl-1 {
+		@include flex-common;
+		@include flex-width-1;
+	}
+
+	.flex-col-xxl-2 {
+		@include flex-common;
+		@include flex-width-2;
+	}
+
+	.flex-col-xxl-3 {
+		@include flex-common;
+		@include flex-width-3;
+	}
+
+	.flex-col-xxl-4 {
+		@include flex-common;
+		@include flex-width-4;
+	}
+
+	.flex-col-xxl-5 {
+		@include flex-common;
+		@include flex-width-5;
+	}
+
+	.flex-col-xxl-6 {
+		@include flex-common;
+		@include flex-width-6;
+	}
+
+	.flex-col-xxl-7 {
+		@include flex-common;
+		@include flex-width-7;
+	}
+
+	.flex-col-xxl-8 {
+		@include flex-common;
+		@include flex-width-8;
+	}
+
+	.flex-col-xxl-9 {
+		@include flex-common;
+		@include flex-width-9;
+	}
+
+	.flex-col-xxl-10 {
+		@include flex-common;
+		@include flex-width-10;
+	}
+
+	.flex-col-xxl-11 {
+		@include flex-common;
+		@include flex-width-11;
+	}
+
+	.flex-col-xxl-12 {
+		@include flex-common;
+		@include flex-width-12;
+	}
+}
